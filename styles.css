@@ -1,0 +1,75 @@
+
+body {
+  padding-top: 70px;
+  padding-bottom: 40px;
+  background-color: #eee;
+}
+
+#format{
+  font: blue;
+  
+}
+
+
+.wrapper{
+  margin:0 auto;
+  width: 600px;
+}
+
+
+.btn, .btn-lg, .btn-primary, .btn-block{
+  margin-top: 10px;
+}
+.wrapper .btn-primary{
+    background-color: #000;
+    border-color:#eee;
+}
+.wrapper .btn-primary:hover{
+  border-color:#000;
+  background-color:#3f3f3f;
+}
+
+.wrapper .btn-primary:active{
+  border-color:#fff;
+  background-color:#d1d1d1;
+}
+
+/* Sticky footer styles
+-------------------------------------------------- */
+html {
+  position: relative;
+  min-height: 100%;
+}
+body {
+  /* Margin bottom by footer height */
+  margin-bottom: 60px;
+}
+.footer {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  /* Set the fixed height of the footer here */
+  height: 60px;
+  background-color: #ccffed;
+}
+.footer p{
+  text-align:center;
+}
+
+
+/* Custom page CSS
+-------------------------------------------------- */
+/* Not required for template or sticky footer method. */
+
+
+.fcontainer {
+  width: auto;
+  margin:0 auto;
+  padding: 0 15px;
+}
+
+
+.fcontainer .text-muted {
+  margin: 20px 0;
+}
+
